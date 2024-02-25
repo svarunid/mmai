@@ -1,4 +1,5 @@
-# Vision AI: Deep Neural Network Architectures for Audio Processing Tasks
+# MultiModal AI: Out-of-box pretrained models for multimodel tasks.
+[GitHub stars](https://img.shields.io/github/stars/abhishekkrthakur/multimodal-ai?style=social)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A repository hosting deep neural network architectures trained visual data. These include ImageGen, VideoGen, ImageClassification etc. The main purpose of this repository is to serve as a practitioner's guide to building an end-to-end industry grade deep learning model training pipeline.
