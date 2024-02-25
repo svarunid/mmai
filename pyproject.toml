@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mmai"
+dynamic = ["version"]
+description = "MultiModal AI: Out-of-box pretrained models for multimodel tasks."
+dependencies = [
+    "jax>=0.4.20",
+    "jaxlib>=0.4.20",
+    "flax>=0.8.0",
+    "numpy>=1.23.0",
+    "optax>=0.1.8",
+    "wandb>=0.16.1",
+    "orbax>=0.1.9",
+    "clu @ git+https://github.com/google/CommonLoopUtils",
+    "pillow>=10.1.0",
+    "librosa>=0.10.0",
+    "tensorflow>=2.12.0",
+    "tensorflow_text>2.12.0",
+    "sentencepiece>=0.1.99",
+]
+license = { file = "LICENSE" }
+
+[tool.setuptools]
+package-dir = { "mmai" = "mmai" }
+
+[project.optional-dependencies]
+dev = ["black>=21.6b0", "isort>=5.9.2", "pytest>=7.4.4"]
